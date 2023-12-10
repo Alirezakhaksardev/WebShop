@@ -32,7 +32,7 @@ function Navbar() {
                                 <Text fontWeight='extrabold'>Web Shop</Text>
                             </Flex>
                         </Link>
-                        <HStack as='nev' spacing={4}  display={{base : 'none' , md : 'flex'}}>
+                        <HStack as='nav' spacing={4}  display={{base : 'none' , md : 'flex'}}>
                             {links.map(link => (
                                 <NavLink key={link.linkName} path={link.path}>{link.linkName}</NavLink>
                             ))}
